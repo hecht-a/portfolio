@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Sans Francisco";
+  src: url("/fonts/San Francisco/SFUIDisplay/SFUIDisplay-Regular.otf")
+}
+
+body {
+  margin: 0;
+  font-family: "Sans Francisco", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
